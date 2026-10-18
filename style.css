@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(45deg, #0a0a0a, #3a443a);
+}
+.button{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.3);
+     background: linear-gradient(45deg, #0a0a0a, #3a443a);
+     color: #ffffff;
+     text-align: center;
+     cursor: pointer;
+}
+#container{
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    margin: 100px auto;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+#input{
+    height: 50px;
+    width: 300px;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 10px;
+    border-radius: 10px;
+     background: linear-gradient(45deg, #0a0a0a, #3a443a);
+     color: #ffffff;
+     font-weight: bold;
+}
+
+.color{
+    color: green;
+}
+#Equal{
+    background: linear-gradient(45deg, rgba(246,98,44),rgba(246,98,44));
+}
